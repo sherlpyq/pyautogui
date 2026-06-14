@@ -7,3 +7,7 @@ target/
 .vscode/
 *.pdb
 upload_release.py
+
+PyAutoGUI-0.9.54/build/
+PyAutoGUI-0.9.54/dist/
+PyAutoGUI-0.9.54/PyAutoGUI.egg-info/

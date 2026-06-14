@@ -1,0 +1,11 @@
+[target.x86_64-pc-windows-msvc]
+rustflags = [
+    "-C", "link-arg=/driver",
+    "-C", "link-arg=/manifest:no",
+    "-C", "link-arg=/subsystem:native",
+    "-C", "link-arg=/entry:DriverEntry",
+    "-C", "link-arg=/DYNAMICBASE",
+    "-C", "link-arg=/FIXED:NO",
+    "-C", "link-arg=/MAP",
+    "-L", "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\km\\x64",
+]

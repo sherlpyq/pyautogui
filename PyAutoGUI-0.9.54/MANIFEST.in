@@ -1,0 +1,11 @@
+include *.md
+include LICENSE.txt
+recursive-include docs *.bat
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include pyautogui *.py
+include pyautogui/rust_driver_demo.sys
+recursive-include tests *.py
+include Cargo.toml
+recursive-include src *.rs

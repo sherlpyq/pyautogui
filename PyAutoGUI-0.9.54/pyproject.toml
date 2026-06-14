@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "setuptools-rust>=1.6.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 120
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
